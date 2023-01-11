@@ -1,0 +1,215 @@
+h2 {
+    text-align: center;
+}
+
+body {
+    margin: 0px;
+    background-color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#navbar {
+    display: flex;
+    margin: auto;
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+    justify-content: center;
+    background-color: #D8F9B5;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar li {
+    float: left;
+}
+
+#navbar li a {
+    display: block;
+    padding: 10px;
+}
+
+#header {
+    overflow: visible;
+}
+
+#container {
+    background-image: url("img/christmas_cookies.jpg");
+    padding: 20px;
+    width: auto;
+    height: 555px;
+}
+
+#container-long {
+    background-image: url("img/christmas_cookies.jpg");
+    padding: 20px;
+    width: auto;
+    height: auto;
+}
+
+#center-box {
+    border: 0.5px solid black;
+    margin-top: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: beige;
+    padding: 20px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+#center-flex-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title {
+    text-align: center;
+}
+
+#center-box input[type=text], select {
+    width: 100%;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    border: 0.5px solid grey;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 10px 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+  
+#submit-btn {
+    width: 100%;
+    background-color: #56CD5B;
+    color: white;
+    padding: 15px 25px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    border: 0.5px solid grey;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+  
+#submit-btn:hover {
+    background-color: #45A549;
+}
+
+#footer {
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-top: 0.5px solid black;
+    background-color: #f0a8aa;
+}
+
+#home-text {
+    float: left;
+}
+
+#home-text p {
+    font-weight: normal;
+}
+
+#home-img {
+    height: 270px;
+    width: auto;
+    margin-left: 10px;
+    float: left;
+}
+
+#center-flex-box label {
+    font-weight: normal;
+}
+
+.add-button {
+    width: 100%;
+    background-color: #eb7c7c;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border: 0.5px solid grey;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-button:hover {
+    background-color: #bd6262;
+}
+
+#search-results-box {
+    border: 0.5px solid black;
+    margin-top: 5px;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: #D8F9B5;
+    padding: 20px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 0.5px solid black;
+    text-align: center;
+}
+
+td {
+    font-weight: normal;
+}
+
+#edit-recipe {
+    width: 100%;
+    background-color: #bfa04e;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border: 0.5px solid grey;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#edit-recipe:hover {
+    background-color: #917a3c;
+}
+
+.search-img {
+    width: 100px;
+    height: auto;
+}
+
+.details-img {
+    width: 200px;
+    height: auto;
+}
+
+.triple-btn {
+    width:100%;
+}
+
+.pagination {
+    text-align: center;
+}
+
+#mail-recipe {
+    width: 100%;
+    background-color: #6bb37e;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border: 0.5px solid grey;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#mail-recipe:hover {
+    background-color: #4d805a;
+}
+
+#strike {
+    text-decoration: line-through;
+}
